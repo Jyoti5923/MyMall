@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProductDescriptionFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/tv_product_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="18dp"
+        android:textColor="#000000"
+        android:text="The details you provide for a product affect the way the product appears to customers, make it easier for you to organize your products, and help customers find the product. You don't have to provide every detail for each product.
+
+For products that don't have any variants, the Pricing, Inventory, and Shipping sections are shown on the product details page. If you add variants, then those sections are no longer shown on the product details page. " />
+</FrameLayout>
