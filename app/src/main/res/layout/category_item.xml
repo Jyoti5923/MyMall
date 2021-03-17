@@ -2,8 +2,8 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="60dp"
-    android:layout_height="60dp">
+    android:layout_width="50dp"
+    android:layout_height="50dp">
 
     <ImageView
         android:id="@+id/category_icon"
@@ -23,6 +23,7 @@
         android:layout_marginBottom="4dp"
         android:text="Home Appliances"
         android:textSize="10sp"
+        android:textColor="#000000"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

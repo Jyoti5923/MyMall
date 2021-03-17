@@ -1,20 +1,20 @@
 package com.example.mymall;
 
 public class SliderModel {
-    private int banner;
+    private String banner;
 
     private String baackgroundColor;
 
-    public SliderModel(int banner, String baackgroundColor) {
+    public SliderModel(String banner, String baackgroundColor) {
         this.banner = banner;
         this.baackgroundColor = baackgroundColor;
     }
 
-    public int getBanner() {
+    public String getBanner() {
         return banner;
     }
 
-    public void setBanner(int banner) {
+    public void setBanner(String banner) {
         this.banner = banner;
     }
 

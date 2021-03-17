@@ -32,6 +32,7 @@ public class MyRewardsFragment extends Fragment {
         LinearLayoutManager layoutManager = new LinearLayoutManager(getContext());
         layoutManager.setOrientation(LinearLayoutManager.VERTICAL);
         rewardsRecyclerView.setLayoutManager(layoutManager);
+
         List<RewardModel> rewardModelList = new ArrayList<>();
         rewardModelList.add(new RewardModel("Cashback","till 2nd,Jun 2020","GET 20% OFF on any product above Rs.200/- and below Rs.3000/-."));
         rewardModelList.add(new RewardModel("Discount","till 2nd,Jun 2020","GET 20% OFF on any product above Rs.200/- and below Rs.3000/-."));

@@ -58,7 +58,7 @@ public class SingUpFragment extends Fragment {
     private ProgressBar progressBar;
     private FirebaseAuth firebaseAuth;
     private FirebaseFirestore firebaseFirestore;
-    private String emailPattern= "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+";
+    private String emailPattern= "[A-Z0-a-z9._-]+@[a-z]+\\.+[a-z]+";
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,

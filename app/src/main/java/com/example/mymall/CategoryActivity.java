@@ -30,35 +30,6 @@ public class CategoryActivity extends AppCompatActivity {
 
         /////Banner Slider
 
-        List<SliderModel> sliderModelList = new ArrayList<SliderModel>();
-
-        sliderModelList.add(new SliderModel(R.drawable.ic_baseline_control_point_24, "#077AE4"));
-        sliderModelList.add(new SliderModel(R.drawable.ic_baseline_person_24, "#077AE4"));
-        sliderModelList.add(new SliderModel(R.drawable.emailsuccess, "#077AE4"));
-
-        sliderModelList.add(new SliderModel(R.drawable.email, "#077AE4"));
-        sliderModelList.add(new SliderModel(R.drawable.bannere, "#077AE4"));
-        sliderModelList.add(new SliderModel(R.drawable.banner, "#077AE4"));
-        sliderModelList.add(new SliderModel(R.drawable.ic_baseline_shopping_cart_24, "#077AE4"));
-        sliderModelList.add(new SliderModel(R.drawable.ic_baseline_control_point_24, "#077AE4"));
-
-        sliderModelList.add(new SliderModel(R.drawable.ic_baseline_person_24, "#077AE4"));
-        sliderModelList.add(new SliderModel(R.drawable.emailsuccess, "#077AE4"));
-        sliderModelList.add(new SliderModel(R.drawable.email, "#077AE4"));
-
-
-        //////Banner Slider
-        /////////// Horizontal Product layout
-        List<HorizontalProductScrollModel> horizontalProductScrollModelList = new ArrayList<>();
-        horizontalProductScrollModelList.add(new HorizontalProductScrollModel(R.drawable.iphone, "Redmi 5A", "SD 625 Processor", "Rs 5999/-"));
-        horizontalProductScrollModelList.add(new HorizontalProductScrollModel(R.drawable.ic_baseline_person_24, "Redmi 5A", "SD 625 Processor", "Rs 5999/-"));
-        horizontalProductScrollModelList.add(new HorizontalProductScrollModel(R.drawable.ic_baseline_error_24, "Redmi 5A", "SD 625 Processor", "Rs 5999/-"));
-        horizontalProductScrollModelList.add(new HorizontalProductScrollModel(R.drawable.ic_baseline_home_24, "Redmi 5A", "SD 625 Processor", "Rs 5999/-"));
-        horizontalProductScrollModelList.add(new HorizontalProductScrollModel(R.drawable.ic_baseline_share_24, "Redmi 5A", "SD 625 Processor", "Rs 5999/-"));
-        horizontalProductScrollModelList.add(new HorizontalProductScrollModel(R.drawable.ic_baseline_notifications_none_24, "Redmi 5A", "SD 625 Processor", "Rs 5999/-"));
-        horizontalProductScrollModelList.add(new HorizontalProductScrollModel(R.drawable.ic_baseline_shopping_cart_24, "Redmi 5A", "SD 625 Processor", "Rs 5999/-"));
-        horizontalProductScrollModelList.add(new HorizontalProductScrollModel(R.drawable.ic_baseline_send_24, "Redmi 5A", "SD 625 Processor", "Rs 5999/-"));
-        horizontalProductScrollModelList.add(new HorizontalProductScrollModel(R.drawable.ic_baseline_home_24, "Redmi 5A", "SD 625 Processor", "Rs 5999/-"));
 
         /////////// Horizontal Product layout
 
@@ -68,14 +39,6 @@ public class CategoryActivity extends AppCompatActivity {
         categoryRecyclerView.setLayoutManager(testingLayoutManager);
 
         List<HomePageModel> homePageModelList = new ArrayList<>();
-        homePageModelList.add(new HomePageModel(0, sliderModelList));
-        homePageModelList.add(new HomePageModel(1, R.drawable.stripad, "#000000"));
-        homePageModelList.add(new HomePageModel(2, "Deals of the Day", horizontalProductScrollModelList));
-        homePageModelList.add(new HomePageModel(3, "Deals of the Day", horizontalProductScrollModelList));
-        homePageModelList.add(new HomePageModel(1, R.drawable.stripad, "#ff0000"));
-        homePageModelList.add(new HomePageModel(3, "Deals of the Day", horizontalProductScrollModelList));
-        homePageModelList.add(new HomePageModel(2, "Deals of the Day", horizontalProductScrollModelList));
-        homePageModelList.add(new HomePageModel(1, R.drawable.banner, "#ffff00"));
 
         HomePageAdapter adapter = new HomePageAdapter(homePageModelList);
         categoryRecyclerView.setAdapter(adapter);
